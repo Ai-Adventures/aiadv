@@ -1,8 +1,6 @@
 # aiadv
-> A small helper library to download the datasets that are used in our course.
+> A small helper library to download the datasets that are used in our training programs at AiAdventures.
 
-
-This file will become your README and also the index of your documentation.
 
 ## Install
 
