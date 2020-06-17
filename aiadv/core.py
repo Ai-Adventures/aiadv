@@ -30,7 +30,7 @@ class URLs:
 
     def path(ds=None):
         fname = ds['fname']
-        path = Config.config_path/fname
+        path = Config().config_path/fname
         return path
 
     def stem(path):
