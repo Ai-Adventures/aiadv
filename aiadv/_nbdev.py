@@ -6,7 +6,7 @@ index = {"Config": "00_core.ipynb",
          "URLs": "00_core.ipynb",
          "download_data": "00_core.ipynb",
          "file_extract": "00_core.ipynb",
-         "download_file_from_google_drive": "00_core.ipynb",
+         "download_url": "00_core.ipynb",
          "untar_data": "00_core.ipynb"}
 
 modules = ["core.py"]

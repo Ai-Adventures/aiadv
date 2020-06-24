@@ -20,10 +20,10 @@ release: pypi
 	nbdev_bump_version
 
 pypi: dist
-	/home/ankur/anaconda3/bin/twine upload --repository pypi dist/*
+	/home/ankur/anaconda3/envs/fastai/bin/twine upload --repository pypi dist/*
 
 dist: clean
-	/home/ankur/anaconda3/bin/python setup.py sdist bdist_wheel
+	/home/ankur/anaconda3/envs/fastai/bin/python setup.py sdist bdist_wheel
 
 clean:
 	rm -rf dist
